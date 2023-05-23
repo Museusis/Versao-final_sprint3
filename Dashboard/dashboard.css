@@ -1,7 +1,8 @@
 .container {
     display: flex;
-    width: 95%;
+    /* width: 95%; */
     margin: auto;
+    flex-direction: column;
 }
 
 *{
@@ -17,11 +18,11 @@
     color: #320D57;
   }
   
-  .container{
+  /* .container{
     display: flex;
     width: 90%;
     margin: auto;
-  }
+  } */
   
   /* Começo do Header */
   .header{
@@ -30,10 +31,10 @@
     padding: 15px;
   }
   
-  .header .container{
+  /* .header .container{
     justify-content: space-between;
     align-items: center;
-  }
+  } */
   
   .logoNav{
     width: 150px;
@@ -72,7 +73,7 @@
 .sala {
     display: flex;
     flex-direction: column;
-    width: 25%;
+    width: 20%;
     align-items: center;
     height: 250px;
     justify-content: space-evenly;
@@ -97,8 +98,8 @@ h3 {
 }
 
 .btn {
-    width: 35%;
-    height: 150px;
+    width: 40%;
+    height: 180px;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -111,18 +112,18 @@ button {
     color: purple;
     border-radius: 5px;
     border: none;
-    padding: 5px;
+    padding: 8px;
 }
 
 .kpei {
-    width: 70%;
+    width: 55%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 .box {
-    width: 30%;
+    width: 40%;
     background-color: aqua;
     display: flex;
     align-items: center;
@@ -136,7 +137,9 @@ button {
 }
 
 .graficos {
-
+  display: flex;
+  flex-direction: row;
+  margin: auto;
 }
 
 #box1 {
@@ -203,4 +206,24 @@ li{
 
 .text span{
     
+}
+
+.pizza {
+  width: 260px;
+  height: 200px;
+}
+
+.cima {
+  display: flex;
+  justify-content: space-around;
+}
+
+.baixo {
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
 }
