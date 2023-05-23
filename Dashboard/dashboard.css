@@ -4,6 +4,71 @@
     margin: auto;
 }
 
+*{
+    font-family: 'Poppins';
+  }
+  
+  body{
+    margin: 0;
+  }
+  
+  a{
+    text-decoration: none;
+    color: #320D57;
+  }
+  
+  .container{
+    display: flex;
+    width: 90%;
+    margin: auto;
+  }
+  
+  /* Começo do Header */
+  .header{
+    background-color: #ffffff;
+    border-bottom: solid #8B49CD 3px;
+    padding: 15px;
+  }
+  
+  .header .container{
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logoNav{
+    width: 150px;
+    height: 40px;
+  }
+  
+  .navBar{
+    width: 600px;
+    display: flex;
+    color: #320D57;
+    list-style: none;
+    justify-content: space-evenly;
+  }
+  
+  .ativo{
+    font-weight: 1000;
+    color: #6a2b69;
+    text-shadow: 1px 0px 1px #460d57;
+  }
+  
+  .btnCadastro{
+    background-color: #ffde59;
+    color: black;
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 4px 10px 4px 10px;
+    font-size: 18px;
+    border: none;
+   cursor: pointer;
+   height: 40px;
+   width: 170px;
+
+  }
+  /* Fim do Header */
+
 .sala {
     display: flex;
     flex-direction: column;
@@ -80,4 +145,62 @@ button {
 
 #box2 {
     background-color: greenyellow;
+}
+
+.header .menu #menu{
+    width: 60px;
+    height: 60px;
+    margin-left: 780px;
+    cursor: pointer;
+    }
+
+.menu_resp{
+  background-color: white; 
+  margin-left: 960px;
+  top: 145px; 
+  width: 120px; 
+  height: 130px;
+  float: none;
+  font-weight: bold;
+  position: absolute;
+  z-index: 1;
+  border-style: solid;
+  border-color: #8B49CD;
+}
+
+.menu_resp-q{
+  background-color: white; 
+  margin-left: 930px;
+  top: 145px; 
+  width: 150px; 
+  height: 180px;
+  float: none;
+  font-weight: bold;
+  position: absolute;
+  z-index: 1;
+  border-style: solid;
+  border-color: #8B49CD;
+}
+
+li{
+  margin-right: 30px;
+  font-size: 22px;
+  list-style: none;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  line-height: 42px;
+}
+
+.banner{
+    height: 80vh;
+    width: 100%;
+}
+
+.text{
+    margin-left: 30px;
+}
+
+.text span{
+    
 }

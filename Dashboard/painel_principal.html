@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel Principal</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <script src="painelP.js"></script>
+
+</head>
+<body>
+      <!-- Começo do Header -->
+  <div class="header">
+    <div class="container">
+      <img class="logoNav" src="logo_navBar.png" />
+
+      <div class="menu">
+        <img onclick="clickmenu()" id="menu" src="menu_icon.png">
+    </div>
+
+       <a href="Cadastro.html"> <button onclick="btnCadastro()" class="btnCadastro">
+          Sair
+        </button></a>
+
+    </div>
+  </div>
+  <!-- Fim do Header -->
+  
+<div id="mensagem"></div>
+
+<div class="banner">
+
+    <div class="text">
+        <h2>Bem vindo(a) ao Painel Principal de Monitoramento</h2>
+        <span>Acompanhe as Médias de Temperatura e Umidade mensal no seu Museu. 
+            Para informações detalhas ou especificas, clique nos indicadores colorido ou acesse suas salas pelo menu!</span>
+    </div>
+
+        <div class="leituras">
+            <div class="l1">
+                <h3>Média de alertas críticos</h3>
+                <span>3%</span>
+            </div>
+            <div class="l2">
+                <h3>Média de leituras estáveis </h3>
+                <span>85%</span>
+            </div>
+            <div class="l3">
+                <h3>Média de alertas de risco</h3>
+                <span>20%</span>
+            </div>
+        </div>
+<div class="caixa_alerta">
+    <h2>A taxa de alertas próximos a ultrapassar a temperatura ou umidade ideal da <span>Sala B</span> esteve acima do esperado este mês. 
+        Procure dar atenção especial para determinada sala. </h2>
+</div>
+
+<div class="caixa_sensor">
+    <h2>Quantidade de sensores que você possui atualmente</h2>
+    <span>115</span>
+</div>
+
+<div class="chart">
+
+</div>
+
+</div>
+  
+
+</body>
+</html>
