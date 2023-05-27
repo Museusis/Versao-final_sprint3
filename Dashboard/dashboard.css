@@ -392,3 +392,12 @@ li{
 #grafico_pizza2{
   position: absolute;
 }
+
+.graficoPizza{
+  display: flex;
+  position: absolute;
+  width: auto;
+  height: auto;
+  margin-left: 850px;
+  margin-top: -260px;
+}
