@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Painel Principal</title>
     <link rel="stylesheet" href="dashboard.css">
-    <script src="painelP.js"></script>
+    <!-- <script src="painelP.js"></script> -->
 
 </head>
 <body>
@@ -70,3 +70,28 @@
 
 </body>
 </html>
+
+<script>
+
+ //variaveis globais 
+ var contador= 0;
+
+ //funcoes do menu de nav
+ function clickmenu() {
+ contador+=1
+ 
+ if(contador>0){
+ if(contador==1){
+     mensagem.innerHTML= `<ul class="menu_resp"> 
+         <li><a href=" ">Sala A</a></li>
+         <li><a href="dashboard.html">Sala B</a></li>
+         <li><a href=" ">Sala C</a></li>`
+ 
+ } else {
+     mensagem.innerHTML= ' ';
+     contador=0
+ }
+ } 
+ } 
+
+</script>

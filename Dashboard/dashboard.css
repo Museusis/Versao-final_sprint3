@@ -1,6 +1,6 @@
 .container {
     display: flex;
-    /* width: 95%; */
+    width: 90%;
     margin: auto;
     flex-direction: column;
 }
@@ -17,8 +17,8 @@
     text-decoration: none;
     color: #320D57;
   }
-  
-  /* .container{
+/*   
+  .container{
     display: flex;
     width: 90%;
     margin: auto;
@@ -29,6 +29,7 @@
     background-color: #ffffff;
     border-bottom: solid #8B49CD 3px;
     padding: 15px;
+    height: 15vh;
   }
   
   /* .header .container{
@@ -37,8 +38,10 @@
   } */
   
   .logoNav{
-    width: 150px;
-    height: 40px;
+    width: 170px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 30px;
   }
   
   .navBar{
@@ -63,10 +66,11 @@
     padding: 4px 10px 4px 10px;
     font-size: 18px;
     border: none;
-   cursor: pointer;
-   height: 40px;
-   width: 170px;
-
+    cursor: pointer;
+    height: 40px;
+    width: 170px;
+    float: right;
+    margin-top: -50px;
   }
   /* Fim do Header */
 
@@ -107,12 +111,14 @@ h3 {
 }
 
 button {
-    /* width: 60%; */
-    background-color: violet;
-    color: purple;
+    width: 100px;
+    background-color: #C6AACD;
+    color: black;
     border-radius: 5px;
+    font-weight: 700;
     border: none;
     padding: 8px;
+    font-size: 13px;
 }
 
 .kpei {
@@ -143,7 +149,7 @@ button {
 }
 
 #box1 {
-    background-color: yellow
+    background-color: rgb(253, 253, 57);
 }
 
 #box2 {
@@ -153,16 +159,17 @@ button {
 .header .menu #menu{
     width: 60px;
     height: 60px;
-    margin-left: 780px;
+    margin-left: 880px;
+    margin-top: -70px;
     cursor: pointer;
     }
 
 .menu_resp{
   background-color: white; 
-  margin-left: 960px;
-  top: 145px; 
+  margin-left: 920px;
+  top: 130px; 
   width: 120px; 
-  height: 130px;
+  height: auto;
   float: none;
   font-weight: bold;
   position: absolute;
