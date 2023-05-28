@@ -366,7 +366,7 @@ li{
   height: 230px;
   position: absolute;
   margin-top: -580px;
-  margin-left: 880px;
+  margin-left: 850px;
 }
 
 .caixa_sensor h2{
@@ -400,4 +400,70 @@ li{
   height: auto;
   margin-left: 850px;
   margin-top: -260px;
+}
+
+.metricas{
+  margin-top: 230px;
+  display: flex;
+  align-items: center;
+  
+}
+
+.caixaMetricaGreen h4{
+  margin-top: 10px;
+  margin-left: 70px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.caixaMetricaGreen ul li{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+.caixaMetricaRed h4{
+  margin-top: 10px;
+  margin-left: 60px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.caixaMetricaRed ul li{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+.caixaMetricaYellow h4{
+  margin-top: 10px;
+  margin-left: 60px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.caixaMetricaYellow ul li{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+.caixaMetricaRed{
+  margin-left: 20px;
+  height: 150px;
+  width: 180px;
+  background-color: #FF4929;
+}
+
+.caixaMetricaGreen{
+  margin-left: 20px;
+  height: 150px;
+  width: 180px;
+  background-color: #83F46B;
+}
+
+.caixaMetricaYellow{
+  margin-left: 20px;
+  height: 150px;
+  width: 180px;
+  background-color: #FFDE59;
 }
