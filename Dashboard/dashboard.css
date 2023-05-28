@@ -93,9 +93,9 @@ p {
     margin: 0;
 }
 
-span {
+/* span {
     width: 80%;
-}
+} */
 
 h3 {
     text-align: end;
@@ -247,7 +247,7 @@ li{
 }
 
 .leituras{
-  width: 100%;
+  width: 80%;
   display: flex;
   padding: 20px;
   margin-left: 40px;
@@ -406,7 +406,7 @@ li{
   margin-top: 230px;
   display: flex;
   align-items: center;
-  
+  justify-content: center;
 }
 
 .caixaMetricaGreen h4{
